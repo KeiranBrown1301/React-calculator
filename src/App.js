@@ -1,9 +1,13 @@
 import { useReducer } from "react"
 import "./App.css"
 
-// const ACTIONS = {
-
-// }
+const ACTIONS = {
+  ADD_DIGIT: 'add-digit',
+  CHOOSE_OPERATION: 'choose-operation',
+  CLEAR: 'clear',
+  DELETE_DIGIT: 'delete-digit',
+  EVALUATE: 'evaluate'
+}
 
 function reducer(state, { type, payload }) {
 
